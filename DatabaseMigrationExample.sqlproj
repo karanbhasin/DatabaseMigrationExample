@@ -236,5 +236,6 @@
     <None Include="DeploymentHistory.xml" />
     <None Include="DeploymentHistoryTemplate.xml" />
     <None Include="DeploymentTemplate.xml" />
+    <None Include="Snapshots\17.7.2014_13.10.32.dacpac" />
   </ItemGroup>
 </Project>
