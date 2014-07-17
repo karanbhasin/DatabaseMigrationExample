@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <deploymentHistory>
-  <environment name="QA" lastDeploymentId="1" nextDeploymentId="2">
+  <environment name="QA" lastDeploymentId="2" nextDeploymentId="3">
     <deployments>
       <!-- This will contain deployment nodes. The template for deployment node is in DeploymentTemplate.xml -->
       <!-- each deployment has a status: deployed, rolledback. In case of rolledback, it will also have rolledbackTimeStamp-->
       <deployment packageName="17.7.2014_13.10.32.dacpac" timeStamp="" deploymentId="1" status="deployed" />
+      <deployment packageName="17.7.2014_13.23.33.dacpac" timeStamp="" deploymentId="2" status="deployed" />
     </deployments>
   </environment>
 </deploymentHistory>
