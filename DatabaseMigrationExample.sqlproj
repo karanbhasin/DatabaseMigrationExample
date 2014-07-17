@@ -91,6 +91,7 @@
     <Folder Include="Scripts" />
     <Folder Include="Scripts\PostDeploy" />
     <Folder Include="Scripts\PreDeploy" />
+    <Folder Include="Snapshots" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Production\Tables\ProductInventory.sql" />
@@ -229,5 +230,11 @@
     <Build Include="Production\XMLSchemaCollections\ProductDescriptionSchemaCollection.sql" />
     <Build Include="Sales\XMLSchemaCollections\StoreSurveySchemaCollection.sql" />
     <Build Include="ExtendedProperties.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Snapshots\DatabaseMigrationExample_20140716_17-00-12.dacpac" />
+    <None Include="DeploymentHistory.xml" />
+    <None Include="DeploymentHistoryTemplate.xml" />
+    <None Include="DeploymentTemplate.xml" />
   </ItemGroup>
 </Project>
